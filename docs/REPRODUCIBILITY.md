@@ -2,7 +2,7 @@
 
 ## Design principle
 
-The public repository separates **analysis logic** from **machine-specific configuration**. Paths to local sequencing data, reference files, model directories, and cluster scratch space should be supplied through configuration files or environment variables rather than committed as absolute paths.
+The repository separates **analysis logic** from **machine-specific configuration**. Paths to local sequencing data, reference files, model directories, and cluster scratch space should be supplied through configuration files or environment variables rather than committed as absolute paths.
 
 ## Computing environments
 
@@ -72,16 +72,4 @@ Major external tools used by the included workflows include:
 - R with the CRAN/Bioconductor packages imported by the analysis scripts
 - Parsl for the original Aurora launchers
 
-ChromHMM v1.27 and STAR v2.7.10b are explicitly recorded in the manuscript Methods; not every dependency version is recoverable from the code package itself. Before long-term archival release, the authors should add the exact environment lockfile(s) or package snapshots from the systems on which the final analyses are rerun.
-
-## Execution validation before archival release
-
-Before assigning a release tag or Zenodo DOI, we recommend:
-
-1. run all shell scripts through `bash -n` and, where available, `shellcheck`;
-2. compile-check all Python scripts;
-3. parse/check the R scripts in the intended R environment;
-4. rerun the notebooks required for the published figure panels;
-5. verify that no notebook output contains usernames, hostnames, tokens, or absolute private paths;
-6. compare regenerated summary tables/panels with the final manuscript figures;
-7. record the final environment and release commit hash.
+ChromHMM v1.27 and STAR v2.7.10b are explicitly recorded in the manuscript Methods. Exact versions for other dependencies should be matched to the environments used for the corresponding analyses where available.

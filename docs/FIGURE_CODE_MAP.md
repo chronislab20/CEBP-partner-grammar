@@ -1,6 +1,6 @@
 # Figure-to-code map
 
-This document maps the figure panels represented by the current public code release to their primary analysis directories.
+This document maps the figure panels represented in this repository to their primary analysis directories.
 
 ## Figure 5a — ChromBPNet analysis workflow
 
@@ -77,12 +77,12 @@ Primary code:
 
 ## Figures 7–8 and Supplementary Figures S7–S8 — single-cell CEBPA/SPI1 reprogramming
 
-The authors' existing single-cell analysis package is included unchanged at:
+Primary code:
 
-- `code/single_cell/CEBPA-SPI1-single-cell-reprogramming-main.zip`
+- `code/single_cell/`
 
-Its internal README maps the included R scripts to Figures 7, 8, S7, and S8 and documents the required CITE-seq, single-cell multiome ATAC, ChromHMM, ChromBPNet/FiNeMo, and supporting input files. The archive was not modified during repository cleanup.
+The README in this directory maps the included R scripts to Figures 7, 8, S7, and S8 and documents the required CITE-seq, single-cell multiome ATAC, ChromHMM, ChromBPNet/FiNeMo, and supporting input files.
 
-## Panels not covered by this release
+## Scope of the figure map
 
-This release includes the organized Fig. 5/S5 bulk regulatory-genomics workflows and the unmodified single-cell archive for Figs. 7–8/S7–S8. Other manuscript panels should only be added to this map when their corresponding analysis code has been cleaned and included in the repository.
+This map covers figure panels for which analysis code is included in this repository.
