@@ -1,0 +1,15 @@
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+data/
+*.rds
+*.h5
+*.h5ad
+*.xlsx
+*.bed
+*.tsv.gz
+figures/
+*.pdf
+.DS_Store
+Thumbs.db

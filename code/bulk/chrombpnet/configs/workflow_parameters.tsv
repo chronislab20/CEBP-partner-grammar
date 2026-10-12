@@ -1,0 +1,23 @@
+stage	parameter	value	note
+prepare_inputs	samtools_flags	-F 780 -q 30	Bulk ATAC BAM filtering
+prepare_inputs	macs2_pvalue	0.01	Relaxed peak calling
+prepare_inputs	macs2_shift	-75	ATAC peak calling
+prepare_inputs	macs2_extsize	150	ATAC peak calling
+prepare_inputs	top_peaks	200000	Ranked by MACS2 signalValue
+prepare_inputs	blacklist_extension_bp	1057	Half of 2114-bp ChromBPNet input window
+training	n_folds	5	Chromosome hold-out cross-validation
+training	input_window_bp	2114	ChromBPNet sequence input
+training	predicted_center_bp	1000	Central output region
+interpretation	model	chrombpnet_nobias.h5	Bias-corrected component used for final contribution scores
+interpretation	shap_output	counts	Primary motif-discovery interpretation
+modisco	max_seqlets	5000000	Final Methods setting
+modisco	min_metacluster_size	2	Final Methods setting
+modisco	window_bp	1000	Final Methods setting
+motif_merge	min_fractional_overlap	0.7	Merged lexicon
+motif_merge	max_seqlets_subsample	300	Pairwise similarity estimation
+motif_merge	trim_support_fraction	0.2	Motif trimming
+motif_merge	trim_min_seqlets	30	Motif trimming
+motif_merge	trim_window_bp	20	Highest-information-content window
+motif_merge	flank_bp	5	Added before/after trimming
+finemo	global_lambda	0.7	Final merged-lexicon calling
+finemo	batch_size	200	FiNeMo call-hits -b

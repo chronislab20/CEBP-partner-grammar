@@ -1,0 +1,24 @@
+state	annotation
+A1	Cons open
+A2	Cons open
+A3	Mostly open
+A4	Mostly open
+A5	Mostly open
+A6	Mostly open
+A7	MEF open
+A8	MEF CEBP open
+A9	MEF CEBP open
+A10	NSC open
+A11	NSC CEBP open
+A12	NSC Cons open
+A13	ESC open
+A14	ESC CEBP open
+A15	ESC Cons open
+A16	Bcell open
+A17	Bcell CEBP open
+A18	Bcell Cons open
+A19	MEF NSC ESC CEBP open
+A20	Const close
+A21	Const close
+A22	Const close
+A23	Const close

@@ -1,0 +1,21 @@
+sample_id	cell_type	condition	bias_threshold	model_folds	status
+MEF_ATAC_mm10	MEF	basal	0.5	5	bulk
+MEF_d2_mCEBPAflag_ATAC_mm10	MEF	48h CEBPA	0.5	5	bulk
+MEF_d2_mCEBPBflag_ATAC_mm10	MEF	48h CEBPB	0.5	5	bulk
+MEF_d2_OSKM_ATAC_L002_mm10	MEF	48h OSKM	0.5	5	bulk
+MEF_d2_OSKM_hCEBPDflag_ATAC_mm10	MEF	48h OSKM + CEBPD	0.5	5	bulk
+MEF_d2_OSKM_mCEBPAflag_ATAC_mm10	MEF	48h OSKM + CEBPA	0.5	5	bulk
+MEF_d2_OSKM_mCEBPBflag_ATAC_mm10	MEF	48h OSKM + CEBPB	0.5	5	bulk
+NSC_ATAC_S23_L005_mm10	NSC	basal	0.6	5	bulk
+NSC_d2_mCEBPAflag_ATAC_S15_mm10	NSC	48h CEBPA	0.6	5	bulk
+NSC_d2_mCEBPBflag_ATAC_mm10	NSC	48h CEBPB	0.6	5	bulk
+NSC_d2_OSKM_ATAC_mm10	NSC	48h OSKM	0.6	5	bulk
+NSC_d2_OSKM_mCEBPAflag_ATAC_mm10	NSC	48h OSKM + CEBPA	0.6	5	bulk
+NSC_d2_OSKM_mCEBPBflag_ATAC_mm10	NSC	48h OSKM + CEBPB	0.6	5	bulk
+ESC_ATAC-Seq_mm10	ESC	basal	0.7	5	bulk
+ESC_d1_hCEBPA_ATAC_mm10	ESC	24h CEBPA	0.6	5	bulk
+ESC_d2_hCEBPA_ATAC_mm10	ESC	48h CEBPA	0.7	5	bulk
+Bcell_Graf_merged_mm10	B cell	basal	0.5	5	bulk
+Bcell_Graf_Cebpa18h_merged_mm10	B cell	18h CEBPA	0.7	5	bulk
+Bcell_Graf_OKSMd1_merged_mm10	B cell	CEBPA pulse + 1d OSKM	0.7	5	bulk
+Bcell_Graf_OKSMd2_merged_mm10	B cell	CEBPA pulse + 2d OSKM	0.7	5	bulk

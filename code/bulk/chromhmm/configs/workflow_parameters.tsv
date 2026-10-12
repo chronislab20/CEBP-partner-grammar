@@ -1,0 +1,10 @@
+stage	parameter	value
+chromhmm	assembly	mm10
+chromhmm	bin_size_bp	200
+chromhmm	binarize_mode	-mixed
+histone_model	selected_states	22
+histone_model	marks	H3K27me3,H3K27ac,H3K4me2,H3K4me1,H3K9ac,H3K4me3,H3K36me3,H3K9me3,H3K79me2
+atac_model	selected_states	23
+state_refinement	ATAC_states_refined	A7-A19
+state_refinement	histone_states_refined	H4-H11
+state_refinement	histone_refinement_mark	H3K27ac

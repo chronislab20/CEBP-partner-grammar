@@ -1,0 +1,6 @@
+export FINEMO_MERGED_DIR="/path/to/merged_tfmodisco_finemo"
+export ATAC_FILTERED_SEGMENTS="/path/to/ATAC_23_filtered_segments.bed"
+export HISTONE_FILTERED_SEGMENTS="/path/to/Histones_22_filtered_segments.bed"
+export INTEGRATION_OUT="/path/to/output/chromhmm_chrombpnet"
+export STARTING_CELL_RNA_DIR="/path/to/starting_cell_rna"
+export TSS_REFERENCE_BED="/path/to/mm10_tss_reference.bed"

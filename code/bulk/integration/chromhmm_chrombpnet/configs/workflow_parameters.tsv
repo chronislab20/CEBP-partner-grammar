@@ -1,0 +1,9 @@
+stage	parameter	value
+finemo_state_summary	bin_size_bp	200
+finemo_state_summary	importance_field	hit_importance
+finemo_state_summary	state_normalization	sum_importance/state_genomic_fraction
+motif_prevalence	min_prop_exploratory	0.05
+tss_definition	RNA_kmeans_K	4
+tss_definition	TSS_window	+/-1kb
+tss_summary	normalization	sum_importance/group_size
+figS5e	histone_enhancer_states	H4,H5,H6,H7,H8
