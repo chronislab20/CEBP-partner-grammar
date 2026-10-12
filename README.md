@@ -99,8 +99,6 @@ If you use this code, please cite the associated manuscript:
 
 <sup>#</sup> These authors contributed equally. \* Correspondence
 
-A final journal citation/DOI can be added here after publication.
-
 ## Data
 
 Sequencing data have been deposited in the Gene Expression Omnibus under SuperSeries accession **GSE344075**, which will be made public upon publication.
